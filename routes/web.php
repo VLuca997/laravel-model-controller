@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+//controller
+use App\Http\Controllers\Guest\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,7 +14,5 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Route::get('/', [PageController::class, 'index']);
 
-Route::get('/', function () {
-    return view('/layouts/layout');
-});
