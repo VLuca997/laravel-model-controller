@@ -4,6 +4,6 @@
 
 @section('main-content')
 
-<H3>cioooo</H3>
+<H3>contatti</H3>
 
 @endsection
